@@ -1,0 +1,19 @@
+{
+  "name": "travel-checker-list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "sequelize-cli": "^6.1.0"
+  }
+}
